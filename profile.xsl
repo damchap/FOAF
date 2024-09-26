@@ -6,9 +6,8 @@
     xmlns:foaf="http://xmlns.com/foaf/0.1/">
     <xsl:output method="html" indent="yes"/>
     <xsl:template match="/">
-        <html>
+        <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
-                
                 <title>FOAF Profils</title>
                 <script src="https://cdn.tailwindcss.com"></script>
             </head>
