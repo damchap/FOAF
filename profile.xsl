@@ -30,7 +30,7 @@
             <p><strong>Workplace:</strong> <a href="{foaf:workplaceHomepage/@rdf:resource}"><xsl:value-of select="foaf:workplaceHomepage/@rdf:resource"/></a></p>
             <!-- affichage de l'image -->
             <img 
-                style="width: 100px"
+                width="300px"
              src="{foaf:img/@rdf:resource}" alt="Photo de profil"/>
             <xsl:apply-templates select="foaf:knows/foaf:Person"/>
         </div>

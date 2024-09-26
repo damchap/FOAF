@@ -17,15 +17,17 @@
     <foaf:knows>
       <foaf:Person rdf:about="https://liloumrchsn.github.io/">
         <foaf:name>Lilou Marchesin</foaf:name>
-        <foaf:homepage rdf:resource="https://liloumrchsn.github.io/"/>
+        <foaf:homepage rdf:resource="https://liloumrchsn.github.io/foaf.rdf"/>
       </foaf:Person>
       <foaf:Person rdf:about="https://bsaintmars.github.io/">
         <foaf:name>Benjamin SAINT-MARS</foaf:name>
         <foaf:homepage rdf:resource="https://bsaintmars.github.io/"/>
+        <foaf:homepage rdf:resource="https://liloumrchsn.github.io/foaf.rdf"/>
       </foaf:Person>
       <foaf:Person rdf:about="https://lelika02.github.io/homepage/">
         <foaf:name>Lelika TAGATAMANOGI</foaf:name>
         <foaf:homepage rdf:resource="https://lelika02.github.io/homepage/"/>
+        <foaf:homepage rdf:resource="https://liloumrchsn.github.io/foaf.rdf"/>
       </foaf:Person>
     </foaf:knows>
   </foaf:Person>
