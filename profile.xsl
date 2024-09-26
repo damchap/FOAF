@@ -28,7 +28,8 @@
             <p><strong>Email:</strong> <a href="{foaf:mbox/@rdf:resource}"><xsl:value-of select="foaf:mbox/@rdf:resource"/></a></p>
             <p><strong>Homepage:</strong> <a href="{foaf:homepage/@rdf:resource}"><xsl:value-of select="foaf:homepage/@rdf:resource"/></a></p>
             <p><strong>Workplace:</strong> <a href="{foaf:workplaceHomepage/@rdf:resource}"><xsl:value-of select="foaf:workplaceHomepage/@rdf:resource"/></a></p>
-            <p><strong>Depiction:</strong> <img src="{foaf:depiction/@rdf:resource}" alt="Depiction"/></p>
+            <!-- affichage de l'image -->
+            <img src="{foaf:img/@rdf:resource}" alt="Photo de profil"/>
             <xsl:apply-templates select="foaf:knows/foaf:Person"/>
         </div>
     </xsl:template>
@@ -36,6 +37,7 @@
         <div class="knows">
             <h3>Knows:</h3>
             <p><xsl:value-of select="foaf:name"/></p>
+            <a href="{foaf:homepage/@rdf:resource}"><xsl:value-of select="foaf:homepage/@rdf:resource"/></a>
         </div>
     </xsl:template>
 </xsl:stylesheet>

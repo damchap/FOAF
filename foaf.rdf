@@ -13,16 +13,19 @@
     <foaf:mbox rdf:resource="mailto:damien.chapart@etudiant.univ-lr.fr"/>
     <foaf:homepage rdf:resource="http://www.damienchapart.com"/>
     <foaf:workplaceHomepage rdf:resource="http://www.example.com"/>
-    <foaf:depiction rdf:resource="http://www.damienchapart.com/photo.jpg"/>
+    <foaf:img rdf:resource="https://www.damienchapart.fr/damien_chapart.png"/>
     <foaf:knows>
       <foaf:Person rdf:about="https://liloumrchsn.github.io/">
         <foaf:name>Lilou Marchesin</foaf:name>
+        <foaf:homepage rdf:resource="https://liloumrchsn.github.io/"/>
       </foaf:Person>
       <foaf:Person rdf:about="https://bsaintmars.github.io/">
         <foaf:name>Benjamin SAINT-MARS</foaf:name>
+        <foaf:homepage rdf:resource="https://bsaintmars.github.io/"/>
       </foaf:Person>
       <foaf:Person rdf:about="https://lelika02.github.io/homepage/">
         <foaf:name>Lelika TAGATAMANOGI</foaf:name>
+        <foaf:homepage rdf:resource="https://lelika02.github.io/homepage/"/>
       </foaf:Person>
     </foaf:knows>
   </foaf:Person>
