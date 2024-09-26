@@ -29,7 +29,9 @@
             <p><strong>Homepage:</strong> <a href="{foaf:homepage/@rdf:resource}"><xsl:value-of select="foaf:homepage/@rdf:resource"/></a></p>
             <p><strong>Workplace:</strong> <a href="{foaf:workplaceHomepage/@rdf:resource}"><xsl:value-of select="foaf:workplaceHomepage/@rdf:resource"/></a></p>
             <!-- affichage de l'image -->
-            <img src="{foaf:img/@rdf:resource}" alt="Photo de profil"/>
+            <img 
+                style="width: 100px"
+             src="{foaf:img/@rdf:resource}" alt="Photo de profil"/>
             <xsl:apply-templates select="foaf:knows/foaf:Person"/>
         </div>
     </xsl:template>
