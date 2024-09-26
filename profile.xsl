@@ -9,13 +9,9 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>FOAF Profils</title>
-                <script src="https://cdn.tailwindcss.com"></script>
+                <title>FOAF Profile</title>
             </head>
             <body>
-                <header class="bg-gray-800 text-white p-4">
-                    <h1 class="text-3xl font-bold">Bienvenue sur ma page</h1>
-                </header>
                 <h1>FOAF Profile</h1>
                 <xsl:apply-templates select="rdf:RDF/foaf:Person"/>
             </body>
