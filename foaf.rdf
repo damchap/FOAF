@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <foaf:Person>
+    <foaf:name>Damien Chapart</foaf:name>
+    <foaf:givenName>Damien</foaf:givenName>
+    <foaf:familyName>Chapart</foaf:familyName>
+    <foaf:mbox rdf:resource="mailto:damien.chapart@etudiant.univ-lr.fr"/>
+    <foaf:homepage rdf:resource="http://www.damienchapart.com"/>
+    <foaf:workplaceHomepage rdf:resource="http://www.example.com"/>
+    <foaf:depiction rdf:resource="http://www.damienchapart.com/photo.jpg"/>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:name>Marie Curie</foaf:name>
+      </foaf:Person>
+    </foaf:knows>
+  </foaf:Person>
+
+</rdf:RDF>
