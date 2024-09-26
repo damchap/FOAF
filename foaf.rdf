@@ -8,13 +8,21 @@
     <foaf:name>Damien Chapart</foaf:name>
     <foaf:givenName>Damien</foaf:givenName>
     <foaf:familyName>Chapart</foaf:familyName>
+    <foaf:nick>damchap</foaf:nick>
+    <foaf:birsthday>2002-09-20</foaf:birsthday>
     <foaf:mbox rdf:resource="mailto:damien.chapart@etudiant.univ-lr.fr"/>
     <foaf:homepage rdf:resource="http://www.damienchapart.com"/>
     <foaf:workplaceHomepage rdf:resource="http://www.example.com"/>
     <foaf:depiction rdf:resource="http://www.damienchapart.com/photo.jpg"/>
     <foaf:knows>
-      <foaf:Person>
-        <foaf:name>Damien Chapart</foaf:name>
+      <foaf:Person rdf:about="https://liloumrchsn.github.io/">
+        <foaf:name>Lilou Marchesin</foaf:name>
+      </foaf:Person>
+      <foaf:Person rdf:about="https://bsaintmars.github.io/">
+        <foaf:name>Benjamin SAINT-MARS</foaf:name>
+      </foaf:Person>
+      <foaf:Person rdf:about="https://lelika02.github.io/homepage/">
+        <foaf:name>Lelika TAGATAMANOGI</foaf:name>
       </foaf:Person>
     </foaf:knows>
   </foaf:Person>
