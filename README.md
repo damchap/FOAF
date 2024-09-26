@@ -1,11 +1,8 @@
 # TP 1
 
 ## Exercice 1
-Créer son fichier foaf.rdf et l’associer à sa page « homepage » web (page de
-présentation).
-Déposer sur github (cf annexe)
-(cerise sur le gateau valider sa homepage par le validateur du w3c
-« https://www.w3.org/RDF/Validator/ »)
+
+
 
 
 
