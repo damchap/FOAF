@@ -49,8 +49,8 @@ ensuite, j'ai utilisé le workflow github pour deployer le site sur github pages
 ![example workflow](https://github.com/damchap/FOAF/actions/workflows/.github/workflows/static.yml/badge.svg)
 
 #### Le site est disponible sur:
-    
-> Disponible sur [github pages](https://damchap.github.io/FOAF/)
+
+Disponible sur [github pages](https://damchap.github.io/FOAF/)
 
 
 ## Exercice 2
@@ -63,7 +63,9 @@ l’URL de votre page foaf.rdf et ajouter des références aux autres pages (Con
 
 J'ai créé un fichier `foaf.xsl` pour transformer le fichier `foaf.rdf` en `foaf.html`.
 
-```xml
+
+
+
 ## Exercice 3
 Créer un compte sur ORCID et utiliser curl pour récupérer les éléments de votre compte
 (en particulier avec les éléments foaf)
